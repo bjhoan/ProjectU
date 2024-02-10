@@ -12,6 +12,7 @@ import Layout from '../layout/layout';
 //Componente base 
 const router = createBrowserRouter([
     { 
+        //Cargue el Layout
         path: '/',
         element: <Layout></Layout>,
         errorElement: <NotFound></NotFound>,

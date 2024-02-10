@@ -7,7 +7,7 @@ import React from 'react';
 const Layout = () => { 
     const navigation = useNavigation()
     return (
-        <div className="Layout">
+        <div>
             <Menu />
             <main className="Main">
                 {navigation.state === "loading" && (

@@ -5,7 +5,7 @@ import { createBrowserRouter } from 'react-router-dom';
 //paginas
 import About from "../pages/About";
 import Home from "../pages/Home";
-import NotFound from "../pages/notfound";
+import NotFound from '../pages/NotFound';
 import VerApi from "../pages/Verapi";
 import Layout from '../layout/layout';
 
